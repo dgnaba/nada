@@ -370,6 +370,11 @@ body {
     margin-bottom: 20px;
 }
 
+.verse-container .lead {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 footer {
     padding: 3rem;
     background-color: var(--pink);
