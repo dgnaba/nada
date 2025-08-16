@@ -7,7 +7,7 @@
 body {
     font-size: 1.2rem;
     font-family: "Quicksand", sans-serif;
-    min-height: 4000px;
+    /*min-height: 4000px;*/
 }
 
 .hero::before {
@@ -217,14 +217,25 @@ body {
 
 .story p,
 .gallery p,
-.rsvp p,
+
 .gifts p {
     font-size: 1rem;
     font-weight: 300;
 }
 
-.gifts {
+.ayat {
     background-image: url(img/bg.png);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.gifts {
+    /*background-image: url(img/bg.png);*/
+    background-color: var(--bg);
+}
+
+.gifts span {
+    color: white;
 }
 
 .timeline {
@@ -328,33 +339,6 @@ body {
     background-color: #f5f5f5;
 }
 
-.rsvp {
-    background-color: var(--bg);
-}
-
-.rsvp h2 {
-    font-size: 4.5rem;
-}
-
-.rsvp p {
-    color: white;
-}
-
-.rsvp form label {
-    color: white;
-}
-
-.rsvp button {
-    background-color: var(--pink);
-    color: white;
-    border: 1px solid var(--pink);
-}
-
-.rsvp button:hover {
-    background-color: white;
-    color: var(--pink);
-    border: 1px solid white;
-}
 
 .verse-container {
     background: white;
@@ -515,6 +499,11 @@ footer li {
         margin: 2px;
     }
 
+    .mynavbar .nav-link {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     .timeline li .timeline-image {
         width: 80px;
         height: 80px;
@@ -539,5 +528,18 @@ footer li {
         margin-top: 1rem;
     }
 
+    .ayat {
+        padding-left: 2 rem;
+        padding-right: 2rem;
+    }
+
+    .mynavbar .offcanvas {
+        width: 300px;
+    }
+
+    .nav-link {
+        /*padding-left: 6rem;*/
+        /*padding-right: 6rem;*/
+    }
 
 }
